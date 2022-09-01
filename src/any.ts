@@ -13,3 +13,5 @@ axios.get(url).then(function (response) {
     let data: Article[] = response.data;
     console.log(data);
 });
+
+// any型は極力使わない
